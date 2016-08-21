@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사과 회사"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:id="@+id/iv_profile"
+            android:src="@drawable/apple"/>
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Phone : "
+            android:textSize="30dp"
+            android:gravity="left"
+            android:textColor="#e11b1b"/>
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="e-mail : "
+            android:textSize="30dp"
+            android:gravity="left"
+            android:textColor="#e11b1b"/>
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Addr : "
+            android:textSize="30dp"
+            android:gravity="left"
+            android:textColor="#e11b1b"/>
+        <TextView
+            android:id="@+id/tv_addr"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <Button
+            android:id="@+id/bt_call"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="전화걸기" />
+        <Button
+            android:id="@+id/bt_map"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="지도보기"
+            android:gravity="center"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내 정보 수정"
+        android:gravity="center"/>
+</LinearLayout>
